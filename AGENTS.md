@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Portfolio content lives only in src/data.ts; components in src/components/portfolio read from it (user edits content there).
+- Hero 360 portrait is the swappable Portrait360 component driven by a 0-1 progress ref, so a real turntable can replace it without touching the page.
