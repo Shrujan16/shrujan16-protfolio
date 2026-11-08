@@ -58,10 +58,11 @@ export const certifications = [
   { title: "Build an AI Voice Assistant with MERN Stack", issuer: "SkillEcted", date: "Aug 2025" },
 ];
 
+function projects_count() { return 4; } // matches the 4 projects listed below
 // Only real numbers. Add more when you have them.
 export const stats = [
   { value: certifications.length, suffix: "", label: "Certifications" },
-  { value: 4, suffix: "", label: "Projects in progress" },
+  { value: projects_count(), suffix: "", label: "Projects" },
   { value: 5, suffix: "th", label: "Semester, B.E. CSE" },
 ];
 
