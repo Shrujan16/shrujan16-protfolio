@@ -21,7 +21,7 @@ function Stars() {
       p[i * 3] = (Math.random() - 0.5) * 60;
       p[i * 3 + 1] = (Math.random() - 0.5) * 60;
       p[i * 3 + 2] = -Math.random() * 120 + 10;
-      const col = palette[Math.random() < 0.7 ? 0 : Math.random() < 0.5 ? 1 : 2];
+      const col = palette[Math.random() < 0.7 ? 0 : Math.random() < 0.5 ? 1 : 2]!;
       c.set([col.r, col.g, col.b], i * 3);
     }
     return [p, c];
