@@ -9,6 +9,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import portrait from "@/assets/portrait.webp";
+import brandMark from "@/assets/brand-mark.png";
 import { certifications, education, experience, formspreeId, marquee, profile, projects, skills, stats } from "@/data";
 import { Portrait360 } from "./Portrait360";
 import { Counter, Magnetic, SectionTitle, TiltCard, onSpot } from "./ui";
@@ -143,7 +144,8 @@ export function Portfolio() {
       {/* Top nav */}
       <header className="fixed inset-x-0 top-0 z-40">
         <nav aria-label="Main" className="mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-full glass mx-3 sm:mx-auto px-4 py-2 sm:px-6">
-          <a href="#hero" onClick={go("hero")} className="font-display text-lg font-bold tracking-tight">
+          <a href="#hero" onClick={go("hero")} aria-label="Home" className="flex items-center gap-2 font-display text-lg font-bold tracking-tight">
+            <img src={brandMark} alt="" width={816} height={816} className="h-7 w-7 object-contain" />
             CSR<span className="text-gold">.</span>
           </a>
           <ul className="hidden gap-6 text-sm text-muted-foreground md:flex">
