@@ -117,3 +117,6 @@
 @media (prefers-reduced-motion: reduce) {
   .marquee-track { animation: none; }
 }
+
+/* Hide the "Edit with Lovable" badge */
+#lovable-badge { display: none !important; }

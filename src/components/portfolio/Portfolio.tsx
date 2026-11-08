@@ -301,10 +301,12 @@ export function Portfolio() {
               <div>
                 <p className="text-lg text-muted-foreground">Have an internship, project or idea? I'd love to hear about it.</p>
                 <a href={`mailto:${profile.email}`} className="mt-6 block font-display text-2xl font-semibold text-gold break-all hover:underline">{profile.email}</a>
+                <a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="mt-2 block font-mono text-sm text-muted-foreground hover:text-gold">{profile.phone}</a>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Magnetic href={profile.resumeUrl} download className="bg-gold text-primary-foreground shadow-[var(--glow-gold)]">Download Resume ↓</Magnetic>
                   {profile.linkedin && <Magnetic href={profile.linkedin} target="_blank" rel="noreferrer" className="border border-border">LinkedIn</Magnetic>}
                   {profile.github && <Magnetic href={profile.github} target="_blank" rel="noreferrer" className="border border-border">GitHub</Magnetic>}
+                  {profile.instagram && <Magnetic href={profile.instagram} target="_blank" rel="noreferrer" className="border border-border">Instagram</Magnetic>}
                 </div>
               </div>
               <ContactForm />

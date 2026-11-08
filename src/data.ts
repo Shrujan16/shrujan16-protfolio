@@ -16,23 +16,24 @@ export const profile = {
     "I'm an aspiring computer science engineer looking for real-world opportunities to apply programming, web development and data science.",
     "I want to grow inside a dynamic, innovative organisation — learning fast through impactful projects and shipping things that matter.",
   ],
-  email: "shrujan16@gmail.com",
-  // TODO: replace with your real URLs (leave "" to hide a button).
-  linkedin: "",
-  github: "",
+  email: "shrujanreddy8765@gmail.com",
+  phone: "+91 87924 14592",
+  linkedin: "https://www.linkedin.com/in/c-shrujan-reddy-658500335",
+  github: "https://github.com/Shrujan16",
+  instagram: "https://www.instagram.com/shrujan_16",
   resumeUrl: "/downloads/C_Shrujan_Reddy_Resume.pdf",
   openToWork: true,
 };
 
 export const skills = [
-  { group: "Python", items: ["Core Python", "OOP", "REST APIs"] },
-  { group: "Web", items: ["Node.js", "MERN Stack"] },
+  { group: "Python", items: ["Core Python", "OOP", "REST APIs", "AI/ML with Python"] },
+  { group: "Web", items: ["HTML", "CSS", "Node.js", "MERN Stack"] },
   { group: "Data & AI", items: ["Data Science", "Supervised ML"] },
   { group: "Security", items: ["Cybersecurity concepts", "Classical ciphers"] },
 ];
 
 // Words that scroll in the tilted marquee strip.
-export const marquee = ["Python", "Node.js", "MongoDB", "Express", "React", "REST APIs", "Machine Learning", "OOP", "Cryptography"];
+export const marquee = ["Python", "HTML", "CSS", "Node.js", "MongoDB", "Express", "React", "REST APIs", "AI/ML", "Machine Learning", "OOP", "Cryptography"];
 
 export const education = [
   {
