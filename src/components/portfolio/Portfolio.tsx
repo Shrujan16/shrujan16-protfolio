@@ -142,7 +142,7 @@ export function Portfolio() {
 
       {/* Top nav */}
       <header className="fixed inset-x-0 top-0 z-40">
-        <nav aria-label="Main" className="mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-full px-4 py-2 sm:px-6">
+        <nav aria-label="Main" className="mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-full glass mx-3 sm:mx-auto px-4 py-2 sm:px-6">
           <a href="#hero" onClick={go("hero")} className="font-display text-lg font-bold tracking-tight">
             CSR<span className="text-gold">.</span>
           </a>
